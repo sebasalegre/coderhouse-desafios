@@ -1,26 +1,8 @@
-a.max-construcciones {
-    font-size: 40px;
-    font-family: cursive;
-    background-color: yellow;
-}
-
-nav ul {
-    display: flex;
-    text-align: center;
-    padding-left: 10px;
-    justify-content: right;
-    list-style: none;
-    text-indent: 20px;
-    font-size: 25px;
-    font-family: cursive;
-}
-
 
 div.titulo1 {
     font-size: 55px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 350px;
 }
 
 
