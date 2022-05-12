@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.titulo {
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    font-size: 55px;
+}
+
+
+video {
+    width: 100%;
+}
+
+
+.titulo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100;
+    height: 100%;
+
+}
+
+
+
+.texto-inicio {
+    font-size: 30px;
+    text-align: center;
+    margin: 250px;
+    color: brown;
+}
+
+.titulo2 {
+    text-align: right;
+    font-size: 50px;
+}
+
+section.section2 {
+    background-color: tan;
+}
+
+.servis {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr;
+    gap: 31px 50px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "imagenes-pleneamiento imagenes-maquetacion imagenes-construccion"
+        "texto1 texto2 texto3";
+}
+
+.imagen1 {
+    display: block;
+    margin: 0px auto;
+    width: 350px;
+    height: 300px;
+}
+
+.imagenes-pleneamiento {
+    grid-area: imagenes-pleneamiento;
+}
+
+.texto1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.7fr 1.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "titulo-planeamiento"
+        "texto-planeamiento";
+    grid-area: texto1;
+}
+
+.titulo-planeamiento {
+    justify-self: center;
+    grid-area: titulo-planeamiento;
+}
+
+
+.imagenes-maquetacion {
+    grid-area: imagenes-maquetacion;
+}
+
+.texto2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.7fr 1.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "titulo-maquetacion"
+        "texto-maquetacion";
+    grid-area: texto2;
+}
+
+.titulo-maquetacion {
+    justify-self: center;
+    grid-area: titulo-maquetacion;
+}
+
+
+.imagenes-construccion {
+    grid-area: imagenes-construccion;
+}
+
+.texto3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.7fr 1.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-items: start;
+    grid-template-areas:
+        "titulo-construccion"
+        "texto-construccion";
+    grid-area: texto3;
+}
+
+.titulo-construccion {
+    justify-self: center;
+    grid-area: titulo-construccion;
+}
+
+.texto-construccion {
+    grid-area: texto-construccion;
+}
+
+.servicios {
+    width: 300px;
+    height: 200px;
+}
+
+
+p.parrafo {
+    color: black;
+}
+
+
+b.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-family: Arial;
+}
+
+.nosotros {
+    column-count: 2;
+    margin-top: 20%;
+}
+
+.texto-nosotros {
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.container {
+    margin: 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 25px 25px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "imagen-1 imagen-2"
+        "imagen-3 imagen-4"
+        "imagen-5 imagen-6";
+    width: 100%;
+    height: 100%;
+}
+
+
+
+img {
+    width: 700px;
+    height: 500px;
+    grid-area: imagen-1;
+}
+
+.imagen-1 {
+    width: 750px;
+    grid-area: imagen-2;
+}
+
+.imagen-1 {
+    grid-area: imagen-3;
+}
+
+.imagen-1 {
+    width: 750px;
+    grid-area: imagen-4;
+}
+
+.imagen-1 {
+    width: 700px;
+    height: 500px;
+    grid-area: imagen-5;
+}
+
+.imagen-1 {
+    width: 750px;
+    grid-area: imagen-6;
+}
+
+
+
+span {
+    display: inline-block;
+    font-family: Arial;
+    background-color: yellow;
+    text-indent: 10%;
+    justify-content: center;
+
+}
+
+
+footer img {
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    padding: 3px;
+}
+
+ul {
+    background-color: beige;
+    margin: 10%;
+    text-align: center;
+    list-style-type: none
+}
+
+li {
+    background-color: #F6E3CA;
+    display: inline;
+    margin-right: 10px;
+    font-size: 23px;
+}
+
+
+
+@media(max-width:450px) {
+
+    .imagen-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 100px;  }
+
+.titulo{
+    font-size: 20px;
+}
+
+.texto-inicio { 
+    display: inline;
+    font-size: 15px;
+    text-align: left;
+}
+
+iframe{ 
+    border: 0%;
+    width: 449px;
+    height: 300px;
+    margin-left: 15px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+p{
+    font-size: 15px;
+}
+
+  }
