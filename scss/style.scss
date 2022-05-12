@@ -1,5 +1,10 @@
- /*anidamiento*/
+/* anidamiento */
+@import "../scss/base/estilosGenerales";
+@import "../scss/components/inicio";
+@import "../scss/components/servicios";
+@import "../scss/components/nosotros";
+@import "../scss/components/proyectos";
+@import "../scss/components/contactos";
+@import "../scss/components/footer";
 
- body{
-     background-color: red;
- }
+
