@@ -1,11 +1,13 @@
-/* seccion nosotros */
+/* seccion 3 - Quienes somos  (nosotros) */
 
 .titulo2 {
     text-align: right;
     font-size: 50px;
 }
 
-
+h1 {
+    margin-bottom: 50px;
+}
 
 .texto-nosotros {
     font-family: cursive;
@@ -13,5 +15,46 @@
     text-align: center;
 }
 
+img {
+    width: 500px;
+    height: 400px;
+}
 
+.container {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 80px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "imagen1 texto1"
+        "texto2 imagen2"
+        "imagen3 texto3";
+}
 
+.imagen1 {
+    grid-area: imagen1;
+}
+
+.texto1 {
+    grid-area: texto1;
+    font-size: 30px;
+}
+
+.texto2 {
+    grid-area: texto2;
+    font-size: 30px;
+}
+
+.imagen2 {
+    grid-area: imagen2;
+}
+
+.imagen3 {
+    grid-area: imagen3;
+}
+
+.texto3 {
+    grid-area: texto3;
+    font-size: 30px;
+}

@@ -10,30 +10,37 @@
 }
 
 /* seccion inicio */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
+}
+
+.titulo {
+  font-family: "Heebo", sans-serif;
+  text-align: center;
+  font-size: 55px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100;
+  height: 100%;
 }
 
 .texto-inicio {
   font-size: 30px;
   text-align: center;
   margin: 250px;
+  margin-top: 150px;
   color: blue;
 }
 
-@media (max-width: 450px) {
-  .titulo {
-    font-size: 20px;
-  }
-
-  .texto-inicio {
-    display: inline;
-    font-size: 15px;
-    text-align: left;
-  }
-}
-/* seccion servicios */
+/* seccion 4 Comunidad (servicios) */
 .titulo2 {
   text-align: right;
   font-size: 50px;
@@ -43,10 +50,14 @@ section.section2 {
   background-color: tan;
 }
 
-/* seccion nosotros */
+/* seccion 3 - Quienes somos  (nosotros) */
 .titulo2 {
   text-align: right;
   font-size: 50px;
+}
+
+h1 {
+  margin-bottom: 50px;
 }
 
 .texto-nosotros {
@@ -55,73 +66,70 @@ section.section2 {
   text-align: center;
 }
 
-
-
-/* seccion proyectos */
-
-
-li{
-  background-color: blue; translate: 70%;
-  font-size: 20px;
-  display:inline-block;
-  padding-left:3px;
-  padding-right:3px; }
+img {
+  width: 500px;
+  height: 400px;
+}
 
 .container {
-  margin: 0%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.8fr 1.2fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-auto-columns: 1fr;
-  grid-auto-rows: 1fr;
-  gap: 25px 25px;
+  gap: 80px 20px;
   grid-auto-flow: row;
-  grid-template-areas: "imagen-1 imagen-2" "imagen-3 imagen-4" "imagen-5 imagen-6";
-  width: 100%;
-  height: 100%;
+  grid-template-areas: "imagen1 texto1" "texto2 imagen2" "imagen3 texto3";
 }
 
-img {
-  width: 700px;
-  height: 500px;
-  grid-area: imagen-1;
+.imagen1 {
+  grid-area: imagen1;
 }
 
-.imagen-1 {
-  width: 750px;
-  height: 500px;
-  grid-area: imagen-2;
+.texto1 {
+  grid-area: texto1;
+  font-size: 30px;
 }
 
-.imagen-1 {
-  width: 700px;
-  height: 500px;
-  grid-area: imagen-3;
+.texto2 {
+  grid-area: texto2;
+  font-size: 30px;
 }
 
-.imagen-1 {
-  width: 750px;
-  height: 500px;
-  grid-area: imagen-4;
+.imagen2 {
+  grid-area: imagen2;
 }
 
-.imagen-1 {
-  width: 700px;
-  height: 500px;
-  grid-area: imagen-5;
+.imagen3 {
+  grid-area: imagen3;
 }
 
-.imagen-1 {
-  width: 750px;
-  height: 500px;
-  grid-area: imagen-6;
+.texto3 {
+  grid-area: texto3;
+  font-size: 30px;
 }
 
-div .premios{
-  display: inline;
+/* seccion 2 - proyectos */
+.titulo2 {
+  font-size: 50px;
+  text-align: center;
 }
 
-/* seccion contactos */
+.nabvar1 {
+  background-color: aquamarine;
+}
+
+.lista {
+  display: inline-block;
+}
+
+.lista2 {
+  display: inline-block;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+}
+
+/* seccion 5 - contactos */
 .titulo2 {
   text-align: right;
   font-size: 50px;
@@ -136,39 +144,10 @@ h1 {
 /* seccion footer */
 footer img {
   float: right;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   margin: 3px;
   padding: 3px;
 }
-
-.card{
-  margin: 0 auto;
-  background: var(--card-color);
-  color:rgb(255, 255, 255);
-  width: 400px;
-  padding: 20px;
-  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
-  border-radius: 20px;          
-}
-.card-header{
-  background: var(--card-header-color);            
-  margin: -20px;
-  padding: 20px;
-  border-radius: 20px 20px 0px 0px;
-}
-.card-body{
-  background: var(--card-body-color);
-  margin: -20px;
-  padding: 20px;
-  border-radius: 00px 00px 20px 20px;
-}
-.card-footer{
-  background: var(--card-footer-color);
-  margin: -20px;
-  padding: 20px;
-  border-radius: 00px 00px 20px 20px;
-  display: flex;
-  justify-content: space-between }
 
 /*# sourceMappingURL=style.css.map */

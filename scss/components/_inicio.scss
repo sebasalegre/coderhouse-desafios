@@ -1,13 +1,14 @@
 /* seccion inicio */
+ *{
+     margin: 0%;
+     padding: 0%;
+ }
 
-.icono{ 
-    height: 80px;
-    width: 80px;
-}
+ .logo{
+     width: 40px;
+     height: 40px;
+ }
 
-video{ 
-    width: 100%;
-}
 .titulo {
     font-family: 'Heebo', sans-serif;
     text-align: center;
@@ -27,16 +28,4 @@ video{
     margin: 250px;
     margin-top: 150px;
     color: blue;
-}
-
-@media(max-width:450px) {
-.titulo{
-    font-size: 20px;
-}
-
-.texto-inicio { 
-    display: inline;
-    font-size: 15px;
-    text-align: left;
-}
 }
