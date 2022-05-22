@@ -5,18 +5,54 @@
     text-align: center;
 }
 
-.nabvar1{
-    background-color: aquamarine;
+.navbar1 {
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(128, 128, 128, 0.537);
 }
 
-.lista{
-    display: inline-block;
+.lista {
+    display:inline-block;
+    color: blue;
+    padding: 30px;
+    display: flex;
+  justify-content: space-evenly
 }
 
-.lista2{
+* {
+    box-sizing: border-box;
+}
+
+.columna {
+    float: left;
+    width: 33%;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.fila::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    width: 100%;
+}
+
+
+.premios{ 
+    font-size: 28px;
+    padding: 50px;
+
+}
+
+
+.lista2 {
     display: inline-block;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
     align-items: center;
+    justify-content: space-evenly
 }

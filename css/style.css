@@ -9,10 +9,14 @@
   font-size: 50px;
 }
 
-/* seccion inicio */
+/* seccion 1 - inicio */
 * {
   margin: 0%;
   padding: 0%;
+  font-family: "Heebo", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .logo {
@@ -46,14 +50,49 @@
   font-size: 50px;
 }
 
-section.section2 {
-  background-color: tan;
+.card {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 0 auto;
+  background: var(--card-color);
+  color: rgb(10, 51, 236);
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
+  border-radius: 20px;
+}
+
+.card-header {
+  background: var(--card-header-color);
+  margin: -20px;
+  padding: 20px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card-body {
+  background: var(--card-body-color);
+  margin: -20px;
+  padding: 20px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.card-footer {
+  background: var(--card-footer-color);
+  margin: -20px;
+  padding: 20px;
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* seccion 3 - Quienes somos  (nosotros) */
+.seccion3 {
+  background-color: #ececec;
+}
+
 .titulo2 {
   text-align: right;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 h1 {
@@ -66,7 +105,7 @@ h1 {
   text-align: center;
 }
 
-img {
+.foto3 {
   width: 500px;
   height: 400px;
 }
@@ -86,12 +125,14 @@ img {
 
 .texto1 {
   grid-area: texto1;
-  font-size: 30px;
+  text-align: center;
+  font-size: 20px;
 }
 
 .texto2 {
   grid-area: texto2;
-  font-size: 30px;
+  text-align: center;
+  font-size: 20px;
 }
 
 .imagen2 {
@@ -104,7 +145,8 @@ img {
 
 .texto3 {
   grid-area: texto3;
-  font-size: 30px;
+  text-align: center;
+  font-size: 20px;
 }
 
 /* seccion 2 - proyectos */
@@ -113,12 +155,44 @@ img {
   text-align: center;
 }
 
-.nabvar1 {
-  background-color: aquamarine;
+.navbar1 {
+  text-align: center;
+  font-size: 25px;
+  background-color: rgba(128, 128, 128, 0.537);
 }
 
 .lista {
   display: inline-block;
+  color: blue;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.columna {
+  float: left;
+  width: 33%;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.fila::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+  width: 100%;
+}
+
+.premios {
+  font-size: 28px;
+  padding: 50px;
 }
 
 .lista2 {
@@ -127,6 +201,7 @@ img {
   padding-left: 20px;
   padding-right: 20px;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 /* seccion 5 - contactos */
@@ -138,10 +213,13 @@ img {
 h1 {
   text-align: center;
   font-size: 45px;
-  font-family: Arial;
 }
 
 /* seccion footer */
+footer {
+  background-color: #ececec;
+}
+
 footer img {
   float: right;
   width: 40px;

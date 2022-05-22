@@ -1,8 +1,12 @@
 /* seccion 3 - Quienes somos  (nosotros) */
 
+.seccion3 {
+    background-color: #ececec;
+}
+
 .titulo2 {
     text-align: right;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 h1 {
@@ -15,11 +19,10 @@ h1 {
     text-align: center;
 }
 
-img {
+ .foto3 {
     width: 500px;
     height: 400px;
 }
-
 .container {
     display: grid;
     grid-template-columns: 0.8fr 1.2fr;
@@ -38,12 +41,14 @@ img {
 
 .texto1 {
     grid-area: texto1;
-    font-size: 30px;
+    text-align: center;
+    font-size: 20px;
 }
 
 .texto2 {
     grid-area: texto2;
-    font-size: 30px;
+    text-align: center;
+    font-size: 20px;
 }
 
 .imagen2 {
@@ -56,5 +61,6 @@ img {
 
 .texto3 {
     grid-area: texto3;
-    font-size: 30px;
+    text-align: center;
+    font-size: 20px;
 }
