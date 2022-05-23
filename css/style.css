@@ -24,18 +24,6 @@
   height: 40px;
 }
 
-.titulo {
-  font-family: "Heebo", sans-serif;
-  text-align: center;
-  font-size: 55px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  width: 100;
-  height: 100%;
-}
-
 .texto-inicio {
   font-size: 30px;
   text-align: center;
@@ -44,6 +32,14 @@
   color: blue;
 }
 
+/* media query */
+@media screen and (max-width: 450px) {
+  .texto-inicio {
+    font-size: 15px;
+    color: red;
+    display: inline-block;
+  }
+}
 /* seccion 4 Comunidad (servicios) */
 .titulo2 {
   text-align: right;
@@ -85,6 +81,12 @@
   justify-content: space-between;
 }
 
+/* media query */
+@media screen and (max-width: 450px) {
+  h2 {
+    font-size: 15px;
+  }
+}
 /* seccion 3 - Quienes somos  (nosotros) */
 .seccion3 {
   background-color: #ececec;
@@ -149,6 +151,26 @@ h1 {
   font-size: 20px;
 }
 
+/* media query */
+@media screen and (max-width: 450px) {
+  .seccion3 {
+    background-color: #ececec;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .foto3 {
+    width: 400px;
+    height: auto;
+  }
+
+  .texto3 {
+    font-size: 15px;
+  }
+}
 /* seccion 2 - proyectos */
 .titulo2 {
   font-size: 50px;
@@ -204,6 +226,18 @@ img {
   justify-content: space-evenly;
 }
 
+/* media query */
+@media screen and (max-width: 450px) {
+  .navbar1 {
+    font-size: 15px;
+  }
+
+  .premios {
+    font-size: 9px;
+    display: inline-flex;
+    padding: 0%;
+  }
+}
 /* seccion 5 - contactos */
 .titulo2 {
   text-align: right;

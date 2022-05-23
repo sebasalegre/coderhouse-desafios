@@ -36,7 +36,7 @@
     display: table;
 }
 
-img {
+img{
     width: 100%;
 }
 
@@ -44,7 +44,6 @@ img {
 .premios{ 
     font-size: 28px;
     padding: 50px;
-
 }
 
 
@@ -55,4 +54,21 @@ img {
     padding-right: 20px;
     align-items: center;
     justify-content: space-evenly
+}
+
+
+/* media query */
+
+@media screen and (max-width:450px) {
+
+    .navbar1{
+        font-size: 15px;
+    }
+
+.premios{
+    font-size: 9px;
+    display: inline-flex;
+    padding: 0%; 
+ }
+
 }
