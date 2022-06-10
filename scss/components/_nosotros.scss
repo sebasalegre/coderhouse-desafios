@@ -5,7 +5,7 @@
 }
 
 .titulo2 {
-    text-align: right;
+    text-align: center;
     font-size: 20px;
 }
 
@@ -80,7 +80,19 @@
         height: auto;
     }
 
-    .texto3{
+    b { 
         font-size: 15px;
+    }
+
+    .texto3{
+        font-size: 11px;
+    }
+
+    .texto2{ 
+        font-size: 11px;
+    }
+
+    .texto1 {
+        font-size: 11px;
     }
 }

@@ -29,9 +29,11 @@ font-family: 'Rubik', sans-serif;
 @media screen and (max-width:450px) {
 
     .texto-inicio {
-        font-size: 15px;
-        color: red;
-        display: inline-block
+        font-size: 13px;
+        text-align: center;
+        color: blue;
+        display: inline-flex;
+        margin-left: 180px;
     }
     
 }

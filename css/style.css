@@ -10,7 +10,7 @@
 }
 
 .titulo2 {
-  text-align: left;
+  text-align: center;
   font-size: 50px;
 }
 
@@ -40,9 +40,11 @@
 /* media query */
 @media screen and (max-width: 450px) {
   .texto-inicio {
-    font-size: 15px;
-    color: red;
-    display: inline-block;
+    font-size: 13px;
+    text-align: center;
+    color: blue;
+    display: inline-flex;
+    margin-left: 180px;
   }
 }
 /* seccion 4 Comunidad (servicios) */
@@ -88,8 +90,8 @@
 
 /* media query */
 @media screen and (max-width: 450px) {
-  h2 {
-    font-size: 15px;
+  .texto {
+    font-size: 10px;
   }
 }
 /* seccion 3 - Quienes somos  (nosotros) */
@@ -98,7 +100,7 @@
 }
 
 .titulo2 {
-  text-align: right;
+  text-align: center;
   font-size: 20px;
 }
 
@@ -168,8 +170,20 @@
     height: auto;
   }
 
-  .texto3 {
+  b {
     font-size: 15px;
+  }
+
+  .texto3 {
+    font-size: 11px;
+  }
+
+  .texto2 {
+    font-size: 11px;
+  }
+
+  .texto1 {
+    font-size: 11px;
   }
 }
 /* seccion 2 - proyectos */
@@ -190,10 +204,6 @@
   padding: 30px;
   display: flex;
   justify-content: space-evenly;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .columna {
@@ -231,18 +241,28 @@ img {
 /* media query */
 @media screen and (max-width: 450px) {
   .navbar1 {
-    font-size: 15px;
+    font-size: 10px;
+    background-color: grey;
   }
 
   .premios {
-    font-size: 9px;
+    font-size: 5px;
     display: inline-flex;
     padding: 0%;
+  }
+
+  .fila {
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    width: 400px;
   }
 }
 /* seccion 5 - contactos */
 .titulo2 {
-  text-align: right;
+  text-align: center;
   font-size: 50px;
 }
 

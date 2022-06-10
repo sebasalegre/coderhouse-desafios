@@ -5,6 +5,7 @@
     font-size: 50px;
 }
 
+
 .card{
     display: inline-flex;
     flex-direction: row;
@@ -41,7 +42,7 @@
 
 @media screen and (max-width:450px) {
 
-    h2{
-        font-size: 15px;
-    }
+    .texto {
+        font-size: 10px;
+         }
 }
