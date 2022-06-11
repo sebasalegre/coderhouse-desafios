@@ -1,8 +1,10 @@
 /* seccion 4 Comunidad (servicios) */
 
-.titulo2 {
+.texto {
+    font-size: 20px;
     text-align: center;
-    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 35px;
 }
 
 
@@ -38,11 +40,14 @@
     justify-content: space-between
 } 
 
+section{ 
+    margin-bottom: 200px;
+}
 /* media query */
 
 @media screen and (max-width:450px) {
 
     .texto {
-        font-size: 10px;
+        font-size: 13px;
          }
 }

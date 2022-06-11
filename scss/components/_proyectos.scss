@@ -1,8 +1,10 @@
 /* seccion 2 - proyectos */
 
-.titulo2 {
-    font-size: 50px;
+h1 .titulo2 {
+    display: contents;
     text-align: center;
+    font-size: 40px;
+    margin-top: 150px;
 }
 
 .navbar1 {
@@ -12,14 +14,12 @@
 }
 
 .lista {
-    display:inline-block;
+    display: inline-block;
     color: blue;
     padding: 30px;
     display: flex;
-  justify-content: space-evenly
+    justify-content: space-evenly
 }
-
-
 
 .columna {
     float: left;
@@ -34,17 +34,15 @@
     display: table;
 }
 
-img{
+img {
     width: 100%;
 }
 
-
-.premios{ 
+.premios {
     font-size: 28px;
     padding: 50px;
     margin-bottom: 300px;
 }
-
 
 .lista2 {
     display: inline-block;
@@ -60,23 +58,28 @@ img{
 
 @media screen and (max-width:450px) {
 
-    .navbar1{
-        font-size: 10px;
+    .media {
+        font-size: 30px;
+    }
+
+    .navbar1 {
+        font-size: 13px;
         background-color: grey;
     }
 
-.premios{
-    font-size: 5px;
-    display: inline-flex;
-    padding: 0%; 
- }
+    .premios {
+        font-size: 5px;
+        display: inline-flex;
+        padding: 0%;
+    }
 
- .fila {
-    display: flex;
-    flex-direction: column;
- }
+    .fila {
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+    }
 
- img {
-    width: 400px;
- }
+    img {
+        width: 400px;
+    }
 }

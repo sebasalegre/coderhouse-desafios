@@ -4,10 +4,11 @@
     background-color: #ececec;
 }
 
-.titulo2 {
+h1 .titulo2 {
+    display: contents;
     text-align: center;
-    font-size: 20px;
-}
+    font-size: 40px;
+  }
 
 
 .texto-nosotros {
@@ -30,6 +31,7 @@
         "imagen1 texto1"
         "texto2 imagen2"
         "imagen3 texto3";
+        margin-top: 150px;
 }
 
 .imagen1 {
@@ -73,6 +75,7 @@
         .container {
             display: flex;
             flex-direction: column;
+            padding-left: 20px;
     }
 
     .foto3{

@@ -28,12 +28,17 @@ font-family: 'Rubik', sans-serif;
 
 @media screen and (max-width:450px) {
 
+    .section1 { 
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+
     .texto-inicio {
-        font-size: 13px;
-        text-align: center;
+        display: inline;
+        text-align: justify;
+        font-size: 15px;
         color: blue;
-        display: inline-flex;
-        margin-left: 180px;
+        margin-left: 0%;
     }
     
 }
